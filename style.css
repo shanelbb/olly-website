@@ -1,6 +1,7 @@
 body {
     background-color: #0093E9;
 background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 50%, #ffffff 100%);
+background-repeat: no-repeat;
 }
 
 header {
@@ -33,6 +34,7 @@ h2 {
 }
 
 .gallery {
+    width: 90%;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -42,6 +44,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    padding-left: 0;
 
 
 }
@@ -53,12 +56,15 @@ h2 {
 }
 
 .full_img {
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .full_img img {
+    width: 100%;
     max-height: 80vh;
     align-items: centers;
 }
